@@ -1,9 +1,9 @@
-# AI Chatbox – RAG-based PDF Question Answering
+## AI Chatbox – RAG-based PDF Question Answering
 
 This project is a simple yet powerful **AI Chatbot** built using a **RAG (Retrieval-Augmented Generation)** pipeline. It allows users to ask natural language questions based on the content of a PDF document.
 
 
-# Project Structure
+## Project Structure
 ├── data/ # Folder for input PDFs
 ├── chunks/ # Stores text chunks extracted from the PDF
 ├── vectordb/ # FAISS vector index and chunk mapping
@@ -11,7 +11,7 @@ This project is a simple yet powerful **AI Chatbot** built using a **RAG (Retrie
 ├── README.md # Project documentation
 
 
-# Features
+## Features
 
 - Reads and processes PDF documents
 - Splits content into meaningful chunks
@@ -20,7 +20,7 @@ This project is a simple yet powerful **AI Chatbot** built using a **RAG (Retrie
 - Generates answers using Google's Gemini 1.5 Flash model
 
 
-# Technologies Used
+## Technologies Used
 
 - `PyPDF2` – PDF text extraction  
 - `LangChain` – RecursiveCharacterTextSplitter  
@@ -28,7 +28,7 @@ This project is a simple yet powerful **AI Chatbot** built using a **RAG (Retrie
 - `FAISS` – efficient similarity search  
 - `Google Generative AI (Gemini)` – text generation  
 
-# How It Works
+## How It Works
 
 1. **Preprocessing**:  
    - Load a PDF from `data/`
@@ -42,7 +42,7 @@ This project is a simple yet powerful **AI Chatbot** built using a **RAG (Retrie
    - Gemini uses context + question to generate an answer
 
 
-# Example Query
+## Example Query
 
 ```python
 query = "what is the purpose of this Document?"
