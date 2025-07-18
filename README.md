@@ -4,11 +4,7 @@ This project is a simple yet powerful **AI Chatbot** built using a **RAG (Retrie
 
 
 ## Project Structure
-├── data/ # Folder for input PDFs
-├── chunks/ # Stores text chunks extracted from the PDF
-├── vectordb/ # FAISS vector index and chunk mapping
-├── llm.ipynb # Main notebook for building and running the RAG pipeline
-├── README.md # Project documentation
+<pre lang="markdown"> ```text ├── data/ # Folder for input PDFs ├── chunks/ # Stores text chunks extracted from the PDF ├── vectordb/ # FAISS vector index and chunk mapping ├── llm.ipynb # Main notebook for building and running the RAG pipeline ├── README.md # Project documentation ``` </pre>
 
 
 ## Features
